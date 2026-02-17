@@ -1,8 +1,8 @@
-# from fastapi import FastAPI
-# app = FastAPI()
+from fastapi import FastAPI
+app = FastAPI()
 
-# app.get("/")
-# def home():
-#     return "HI"
+@app.get("/")
+def home():
+    return "HI"
 
-print("HELLO")
+
